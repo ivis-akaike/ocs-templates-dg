@@ -1,0 +1,33 @@
+#
+# VCC 関連
+#
+vcc:
+    host: 163.220.177.133
+    name: DG
+
+    # 以降省略可。ネットワーク接続方式により必要な場合のみ
+    # DNAT情報などを管理者に問い合わせる。
+    insecure_request_warning: False
+    # vcc_port: VCP REST API port
+    # vault_port: vault servivce port
+    # private_ip: VC Controller private IP
+
+    # VcNodeなどの起動・終了待ち時間の調整
+    wait_timeout_sec: 1000 # default 1000sec = 15minutes
+
+#
+# spec options のdefault設定
+#
+# spec_options:
+#    # http://docs.docker.jp/engine/userguide/networking/default_network/donfigure-dns.html
+#    dns:
+#      - 8.8.8.8
+#    dns_search: vcp.handson.org
+#    add_host:
+#      - my_grafana:192.168.1.1
+#      - my_gw:172.30.1.10
+#      - my_manager:157.1.201.5
+#    options:
+#      - timeout:60
+#    hostname: mynode
+#    gpus: all
