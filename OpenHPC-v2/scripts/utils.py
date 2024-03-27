@@ -205,7 +205,7 @@ def check_parameter_mdx_compute_pack_num(value, params, kwargs):
 def spec_env_munge_key(gvars, vcp, token):
     vault_url = \
         f'{vcp.vcc_info()["vault_url"]}/v1/{gvars["vault_path_munge_key"]}'
-    r = requests.get(vault_url, headers={'X-Vault-Token': token})
+    r = requests.get(vault_url, headers={'X-Vault-Token': token}, verify=False)
     return r.json()['data']['munge.key']
 
 

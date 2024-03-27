@@ -1,0 +1,52 @@
+#!/usr/bin/expect
+# 自己署名証明書を作成するためのスクリプト
+
+set country_name [lindex $argv 0]
+set province_name [lindex $argv 1]
+set locality_name [lindex $argv 2]
+set organization_name [lindex $argv 3]
+set section_name [lindex $argv 4]
+set common_name [lindex $argv 5]
+set email_address [lindex $argv 6]
+
+spawn openssl req -new -key web-server.key -out web-server.csr
+
+# input Country Name
+expect -glob ":"
+send -- "${country_name}\n"
+
+# input Province Name
+expect -glob ":"
+send -- "${province_name}\n"
+
+# input Locality Name
+expect -glob ":"
+send -- "${locality_name}\n"
+
+# input Organization Name
+expect -glob ":"
+send -- "${organization_name}\n"
+
+# input Section Name
+expect -glob ":"
+send -- "${section_name}\n"
+
+# input Common Name
+expect -glob ":"
+send -- "${common_name}\n"
+
+# input Email
+expect -glob ":"
+send -- "${email_address}\n"
+
+# input blank in password
+expect -glob ":"
+send -- "\n"
+
+# input blank in optional company name
+expect -glob ":"
+send -- "\n"
+
+wait
+
+exit 0
