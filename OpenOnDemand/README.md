@@ -32,8 +32,8 @@ Open OnDemandはOpenHPCと同様、VCノードのBaseコンテナにインスト
 
 1. [010-OpenOnDemandのインストール](./010-OpenOnDemand%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.ipynb)
 1. [020-OpenOnDemandのセットアップ](./020-OpenOnDemand%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97.ipynb)
-1. [030-ジョブ実行環境のセットアップ](./030-%E3%82%B8%E3%83%A7%E3%83%96%E5%AE%9F%E8%A1%8C%E7%92%B0%E5%A2%83%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97.ipynb)
+1. [030-OpenOnDemandにジョブ実行環境(Slurm)をセットアップする](./030-OpenOnDemand%E3%81%AB%E3%82%B8%E3%83%A7%E3%83%96%E5%AE%9F%E8%A1%8C%E7%92%B0%E5%A2%83%28Slurm%29%E3%82%92%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B.ipynb)
 
-「[040-ジョブの実行](./040-%E3%82%B8%E3%83%A7%E3%83%96%E3%81%AE%E5%AE%9F%E8%A1%8C.ipynb)」は、Open OnDemandのWeb UIからのバッチジョブ実行方法を示したものです。このNotebookにはコード部分は存在せず、ドキュメントのみです。
+「[040-正常性確認用ジョブの実行](./040-%E6%AD%A3%E5%B8%B8%E6%80%A7%E7%A2%BA%E8%AA%8D%E7%94%A8%E3%82%B8%E3%83%A7%E3%83%96%E3%81%AE%E5%AE%9F%E8%A1%8C.ipynb)」は、Open OnDemandのWeb UIからのバッチジョブ実行方法を示したものです。このNotebookにはコード部分は存在せず、ドキュメントのみです。
 
-「[050-JupyterNotebookのセットアップ](./050-JupyterNotebook%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97.ipynb)」のNotebookは、Jupyter Notebookサーバをジョブとして実行するための設定を示したものです。通常のバッチジョブを実行するだけであれば、実行する必要はありません。
+「[050-ComputeNodeにJupyterNotebookをセットアップする](./050-ComputeNode%E3%81%ABJupyterNotebook%E3%82%92%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B.ipynb)」のNotebookは、Jupyter Notebookサーバをジョブとして実行するための設定を示したものです。通常のバッチジョブを実行するだけであれば、実行する必要はありません。
