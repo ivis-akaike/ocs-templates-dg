@@ -1,6 +1,6 @@
-# VcpSDKを利用したOpenOnDemandのセットアップ
+# VcpSDKを利用したOpen OnDemandのセットアップ
 
-このテンプレートでは、VcpSDKを利用してOpenOnDemandをインストール・セットアップします。
+このテンプレートでは、VcpSDKを利用してOpen OnDemandをインストール・セットアップします。
 
 Open OnDemandは、Web UI経由でジョブ投入を可能にするWebアプリケーションです。Jupyter NotebookなどのようなWebアプリケーションをジョブとして動作させることもサポートしています。
 
